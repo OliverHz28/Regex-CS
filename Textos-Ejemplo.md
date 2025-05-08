@@ -22,7 +22,7 @@ Aquí solo hay palabras comunes, números y signos de puntuación.
 Espero que este texto sea útil para probar la funcionalidad de no encontrar URLs.
 ```
 
-### Textos sin url
+### Textos telefonos
 
 ```bash
 Números de Estados Unidos:

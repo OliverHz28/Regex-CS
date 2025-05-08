@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/PC2-REGEX.csproj": {}
+  },
+  "projects": {
+    "/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/PC2-REGEX.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/PC2-REGEX.csproj",
+        "projectName": "PC2-REGEX",
+        "projectPath": "/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/PC2-REGEX.csproj",
+        "packagesPath": "/home/frankhz/.nuget/packages/",
+        "outputPath": "/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/frankhz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

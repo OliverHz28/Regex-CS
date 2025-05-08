@@ -1,0 +1,14 @@
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/bin/Debug/net8.0/PC2-REGEX
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/bin/Debug/net8.0/PC2-REGEX.deps.json
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/bin/Debug/net8.0/PC2-REGEX.runtimeconfig.json
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/bin/Debug/net8.0/PC2-REGEX.dll
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/bin/Debug/net8.0/PC2-REGEX.pdb
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/Debug/net8.0/PC2-REGEX.GeneratedMSBuildEditorConfig.editorconfig
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/Debug/net8.0/PC2-REGEX.AssemblyInfoInputs.cache
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/Debug/net8.0/PC2-REGEX.AssemblyInfo.cs
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/Debug/net8.0/PC2-REGEX.csproj.CoreCompileInputs.cache
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/Debug/net8.0/PC2-REGEX.dll
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/Debug/net8.0/refint/PC2-REGEX.dll
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/Debug/net8.0/PC2-REGEX.pdb
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/Debug/net8.0/PC2-REGEX.genruntimeconfig.cache
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/Debug/net8.0/ref/PC2-REGEX.dll

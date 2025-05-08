@@ -11,7 +11,7 @@ public class Program
             Console.WriteLine("\n--- Menú de Regex ---");
             Console.WriteLine("1. Validar Correo Electrónico");
             Console.WriteLine("2. Extraer URLs de Texto");
-            Console.WriteLine("3. [Futura Funcionalidad]");
+            Console.WriteLine("3. Extraer Telefonos de Texto");
             Console.WriteLine("4. Salir");
             Console.Write("Ingrese su opción: ");
 
@@ -26,7 +26,7 @@ public class Program
                     RegexAplicacion.ExtraerUrls();
                     break;
                 case "3":
-                    Console.WriteLine("¡Esta funcionalidad se implementará pronto!");
+                    RegexAplicacion.ExtraerTelefonos();
                     break;
                 case "4":
                     Console.WriteLine("Saliendo de la aplicación. ¡Hasta luego!");

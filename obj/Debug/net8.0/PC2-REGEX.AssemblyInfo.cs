@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PC2-REGEX")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc616b04ea160882c0e8787c15dba09920faa0de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed64c2ec637d75cb2221a06fe426b80f0b1ccf24")]
 [assembly: System.Reflection.AssemblyProductAttribute("PC2-REGEX")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PC2-REGEX")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

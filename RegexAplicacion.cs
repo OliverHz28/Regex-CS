@@ -54,5 +54,33 @@ public static class RegexAplicacion
         }
     }
 
-    // Aquí irán los otros métodos para las futuras funcionalidades
+ // Método para extraer números de teléfono
+    public static void ExtraerTelefonos()
+    {
+        Console.WriteLine("\nIngrese el texto del cual desea extraer números de teléfono:");
+        string? text = Console.ReadLine();
+        string pattern = @"(?:\+?(\d{1,3}))?[-.\s]?\(?(\d{3})\)?[-.\s]?(\d{3})[-.\s]?(\d{4})(?:\s*(?:ext|ext.)\s*(\d+))?";
+
+        if (!string.IsNullOrEmpty(text))
+        {
+            MatchCollection matches = Regex.Matches(text, pattern);
+
+            if (matches.Count > 0)
+            {
+                Console.WriteLine("Números de teléfono encontrados:");
+                foreach (Match match in matches)
+                {
+                    Console.WriteLine("Número de teléfono: " + match.Value);
+                }
+            }
+            else
+            {
+                Console.WriteLine("No se encontraron números de teléfono en el texto.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("El texto ingresado está vacío.");
+        }
+    }
 }

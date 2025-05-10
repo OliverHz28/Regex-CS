@@ -1,5 +1,3 @@
-using System;
-
 public class Program
 {
     public static void Main(string[] args)
@@ -12,7 +10,10 @@ public class Program
             Console.WriteLine("1. Validar Correo Electrónico");
             Console.WriteLine("2. Extraer URLs de Texto");
             Console.WriteLine("3. Extraer Telefonos de Texto");
-            Console.WriteLine("4. Salir");
+            Console.WriteLine("4. Encontrar Palabras que Empiezan con 'a' y Terminan con 'r'");
+            Console.WriteLine("5. Eliminar todos los espacios en blanco");
+            Console.WriteLine("6. Verificar si es un palíndromo (ignorando espacios)");
+            Console.WriteLine("7. Salir");
             Console.Write("Ingrese su opción: ");
 
             string? opcion = Console.ReadLine();
@@ -29,6 +30,15 @@ public class Program
                     RegexAplicacion.ExtraerTelefonos();
                     break;
                 case "4":
+                    RegexAplicacion.EncontrarPalabrasAyR();
+                    break;
+                case "5":
+                    RegexAplicacion.EliminarEspaciosEnBlanco();
+                    break;
+                case "6":
+                    RegexAplicacion.VerificarPalindromo();
+                    break;
+                case "7":
                     Console.WriteLine("Saliendo de la aplicación. ¡Hasta luego!");
                     salir = true;
                     break;

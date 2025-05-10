@@ -4,27 +4,34 @@
 
 ```bash
 Visita nuestros sitios web para más información:
-Nuestro sitio principal es https://www.example.com.
-También puedes consultar nuestro blog en http://blog.example.org/noticias.
+Nuestro sitio principal es https://www.uni/automatas.edu.
+También puedes consultar nuestro blog en http://blog.uni.edu/noticias.
 Síguenos en nuestras redes sociales:
-Facebook: https://facebook.com/example
-Twitter: twitter.com/example_oficial (sin el http:// o https://, debería no coincidir con nuestra regex actual más estricta)
-Para soporte, visita https://support.example.co.uk/faq?id=123.
-Otro sitio interesante es http://subdominio.example-site.net:8080/pagina.html#seccion.
-Finalmente, aquí hay una URL sin "www": https://anothersite.io.
+Facebook: https://facebook.com/automatas
+Twitter: twitter.com/uni_oficial
+Para soporte, visita https://support.uni.co.uk/faq?id=123.
+Otro sitio interesante es http://subdominio.planchas-site.net:8080/pagina.html#seccion.
+Finalmente, una URL sin "www": https://anothersite.io.
 ```
 
 ### Textos sin url
 
 ```bash
-Este es un texto de ejemplo que no contiene ninguna dirección web o URL.
-Aquí solo hay palabras comunes, números y signos de puntuación.
-Espero que este texto sea útil para probar la funcionalidad de no encontrar URLs.
+Texto de ejemplo que no contiene ninguna dirección web o URL.
+Solo hay palabras comunes, números y signos de puntuación.
+Texto útil para probar la funcionalidad de no encontrar URLs.
 ```
 
 ### Textos telefonos
 
 ```bash
+Números de teléfono en Perú:
+Fijo en Lima (local): (01) 123-4567
+Fijo en Lima (nacional): 01-987-6543
+Fijo en Lima (internacional): +51 1 555-1122
+Móvil (local): 9123-45678
+Móvil (internacional): +51 987654321
+
 Números de Estados Unidos:
 +1-555-123-4567
 (212) 987-6543
@@ -65,3 +72,31 @@ Números ambiguos:
 123 (demasiado corto)
 +12 (código de país incompleto)
 ```
+
+### Textos Coincidencia de límites de palabras
+
+```bash
+La araña caminaba alrededor del arbol en la arena. 
+Un astronauta observaba el radar. El altar era de color ámbar. 
+Era un lugar popular para acampar y admirar el mar.
+```
+
+### Textos Eliminación de espacios en blanco
+
+```bash
+Este   es   un   texto   de   ejemplo   con   varios
+tipos   de   espacios:   espacios   normales,   tabulaciones\t,
+y   saltos   de   línea.\nTambién   hay   múltiples   espacios   seguidos.
+```
+
+### Textos Palindromos
+
+```bash
+Anita lava la tina
+La ruta nos aporto otro paso natural
+A man a plan a canal Panama
+Teoria de Automatas 
+Quiero aprobar
+No es palindromo
+```
+

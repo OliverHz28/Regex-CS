@@ -83,4 +83,80 @@ public static class RegexAplicacion
             Console.WriteLine("El texto ingresado está vacío.");
         }
     }
+
+    public static void EncontrarPalabrasAyR()
+    {
+        Console.WriteLine("\nIngrese el texto donde desea encontrar palabras que empiezan con 'a' y terminan con 'r':");
+        string? text = Console.ReadLine();
+        string pattern = @"\ba\w*r\b";
+
+        if (!string.IsNullOrEmpty(text))
+        {
+            MatchCollection matches = Regex.Matches(text, pattern, RegexOptions.IgnoreCase); // Usamos IgnoreCase para ser insensible a mayúsculas
+
+            if (matches.Count > 0)
+            {
+                Console.WriteLine("Palabras encontradas:");
+                foreach (Match match in matches)
+                {
+                    Console.WriteLine("Palabra: " + match.Value);
+                }
+            }
+            else
+            {
+                Console.WriteLine("No se encontraron palabras que empiecen con 'a' y terminen con 'r' en el texto.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("El texto ingresado está vacío.");
+        }
+    }
+
+    public static void EliminarEspaciosEnBlanco()
+    {
+        Console.WriteLine("\nIngrese el texto del cual desea eliminar los espacios en blanco:");
+        string? text = Console.ReadLine();
+
+        if (!string.IsNullOrEmpty(text))
+        {
+            string textoSinEspacios = Regex.Replace(text, @"\s+", "");
+            Console.WriteLine("Texto sin espacios en blanco:");
+            Console.WriteLine(textoSinEspacios);
+        }
+        else
+        {
+            Console.WriteLine("El texto ingresado está vacío.");
+        }
+    }
+
+    public static void VerificarPalindromo()
+    {
+        Console.WriteLine("\nIngrese el texto para verificar si es un palíndromo (los espacios serán ignorados):");
+        string? text = Console.ReadLine();
+
+        if (!string.IsNullOrEmpty(text))
+        {
+            // Eliminar todos los espacios en blanco y convertir a minúsculas para la comparación
+            string textoSinEspacios = Regex.Replace(text, @"\s+", "").ToLower();
+
+            // Invertir la cadena
+            string textoInvertido = new string(textoSinEspacios.Reverse().ToArray());
+
+            // Comparar la cadena original (sin espacios) con su versión invertida
+            if (textoSinEspacios == textoInvertido)
+            {
+                Console.WriteLine($"'{text}' es un palíndromo (ignorando espacios).");
+            }
+            else
+            {
+                Console.WriteLine($"'{text}' no es un palíndromo (ignorando espacios).");
+            }
+        }
+        else
+        {
+            Console.WriteLine("El texto ingresado está vacío.");
+        }
+    }
+
 }

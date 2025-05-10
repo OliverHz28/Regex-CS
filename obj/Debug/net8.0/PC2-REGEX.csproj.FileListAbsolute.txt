@@ -12,3 +12,4 @@
 /home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/Debug/net8.0/PC2-REGEX.pdb
 /home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/Debug/net8.0/PC2-REGEX.genruntimeconfig.cache
 /home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/Debug/net8.0/ref/PC2-REGEX.dll
+/home/frankhz/Ambiente de Desarrollo/Automatas/PC2-REGEX/obj/Debug/net8.0/PC2-REGEX.sourcelink.json
